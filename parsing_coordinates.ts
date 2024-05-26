@@ -62,13 +62,13 @@ class Person implements Persona {
     }
  }
  
-let priyanka: Person = new Person('Priyanka', 25);
+const priyanka: Person = new Person('Priyanka', 25);
 
 function PersonFactory(name: string, age: number): Person {
     return new Person(name, age);
 }
 
-let javier: Person = PersonFactory('Javier', 40);
+const javier: Person = PersonFactory('Javier', 40);
 
 console.log(priyanka.toJSON());
 console.log(javier.toJSON());
