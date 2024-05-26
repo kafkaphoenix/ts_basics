@@ -1,4 +1,4 @@
-import addNumbers, {addStrings, addStrings2, fetchData, helloPerson, introduce, printFormatted} from "./functions";
+import {addNumbers, addStrings, addStrings2, fetchData, helloPerson, introduce, printFormatted} from "./functions";
 
 console.log(addNumbers(1, 2));
 console.log(addStrings("Hello", "World"));

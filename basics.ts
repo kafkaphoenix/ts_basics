@@ -37,6 +37,13 @@ for (let i = 0; i < names.length; i++) {
     console.log(names[i].toUpperCase());
 }
 
+// equivalent of this for as a while
+let j = 0;
+while (j < names.length) {
+    console.log(names[j].toUpperCase());
+    j++;
+}
+
 [1, 2, 3].forEach((n) => console.log(n));
 const out = [4, 5, 6].map((n) => `num ${n}`);
 console.log(out);
